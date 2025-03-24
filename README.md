@@ -1,4 +1,4 @@
-# AeroBook - Airline Ticket Reservation System
+# SkySerach - Airline Ticket Reservation System
 
 ## ✈️ Overview
 AeroBook is a modern airline ticket reservation system that allows users to search for flights, view details, and book tickets seamlessly. The system includes an admin backend for managing flights and integrates real-time flight data using the **AviationStack API**.
