@@ -1,0 +1,223 @@
+/* Container */
+.search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #00050e, #2e5495);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  /* Heading (H2) Styling */
+.search-heading {
+    font-size: 3.5rem;
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 10px;
+    margin-top: -90px;
+  }
+  .name {
+    margin-right: 8px; /* Adds spacing between the icon and text */
+    color: #007bff; /* Equivalent to text-blue-500 */
+    font-size: 1.2rem; /* Adjust icon size */
+    vertical-align: middle; /* Aligns icon properly with text */
+  }
+  .search-heading span {
+    color: #007bff;
+  }
+  .search-subtitle {
+    font-size: 1.5rem;
+    color: #fbf8f8; /* Soft gray for better contrast */
+    text-align: center;
+    font-weight: 500;
+    margin-top: 10px;
+    
+  }
+  
+  .Sky-title {
+    position: absolute;
+    top: -10px;
+    left: 20px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+   
+    letter-spacing: 2px;
+    z-index: 10; /* Keeps it on top of other elements */
+  }
+  /* Hero Section */
+  .hero-section {
+    text-align: center;
+    padding: 24px;
+  }
+  
+  .hero.-title {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .hero-highlight {
+    color: #007bff;
+  }
+  
+  .hero.-subtitle {
+    color: #555;
+    margin-top: 8px;
+    font-size: 1rem;
+  }
+  
+  /* Card Styling */
+  .search-card {
+    background: white;
+    max-width: 700px;
+    width: 100%;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Flight Search Grid */
+.search-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px; /* Equivalent to gap-4 */
+  }
+  
+  /* Label Styling */
+  .search-label {
+    font-size: 1.5rem; /* Equivalent to text-sm */
+    color: #4a4a4a; /* Equivalent to text-gray-700 */
+    font-weight: 500; /* Equivalent to font-medium */
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-dropdown {
+    width: 100%;
+  min-width: max-content; /* Ensures the dropdown expands */
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #c59494;
+  font-size: 1rem;
+  white-space: nowrap; /* Prevents text from wrapping */
+  overflow: hidden;
+  text-overflow: ellipsis;
+  appearance: none; /* Removes default styling (for better control) */
+  }
+  
+  /* Date Picker Grid */
+.date-picker-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px; /* Equivalent to gap-4 */
+    margin-top: 16px; /* Equivalent to mt-4 */
+  }
+  .date-label {
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+    font-weight: 500;
+    color: #333;
+    margin-bottom: 5px; /* Adds spacing below the label */
+  }
+  
+  .box {
+    margin-right: 8px; /* Space between the icon and text */
+    color: #101214; /* Matches theme color */
+    font-size: 1.2rem; /* Adjust icon size */
+  }
+  
+  /* Ensures the date input aligns properly below the label */
+  .date-input {
+    width: 93.5%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    background: #f8f9fa;
+    transition: border-color 0.3s ease-in-out;
+  }
+  .date-picker-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; /* Adds spacing between fields */
+  }
+  
+  .date-picker-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .custom-datepicker {
+    width: 97%;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #c59494;
+    font-size: 1rem;
+    text-overflow: ellipsis;
+    
+  }
+  .react-datepicker {
+    border-radius: 8px;
+    padding: 10px;
+    background-color: white;
+    width: auto
+}
+
+.react-datepicker__triangle {
+    display: none; /* Hides the little arrow above the calendar */
+}
+  
+  .react-datepicker-popper {
+    z-index: 1000 !important;
+    transform: translateX(-5px) !important; /* Ensures it aligns below */
+    left: 0 !important;
+  }
+  
+  
+  /* Round Trip Toggle Container */
+.round-trip-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px; /* Adds space from the date section */
+  }
+  
+  /* Round Trip Label */
+  .round-trip-label {
+    font-size: 1rem; /* Equivalent to text-base */
+    color: #4a4a4a; /* Equivalent to text-gray-700 */
+    font-weight: 500; /* Equivalent to font-medium */
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Search Button Container */
+  .search-button {
+    margin-top: 20px; /* Adds space from the toggle */
+    text-align: center;
+  }
+  
+  /* Search Button Styling */
+  .search-button button {
+    width: 100%;
+    background: #007bff; /* Equivalent to bg-blue-600 */
+    color: white;
+    padding: 12px;
+    font-size: 1rem; /* Equivalent to text-base */
+    font-weight: 600; /* Equivalent to font-medium */
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  .search-button button:hover {
+    background: #0056b3; /* Equivalent to hover:bg-blue-700 */
+  }

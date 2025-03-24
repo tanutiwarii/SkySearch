@@ -1,0 +1,177 @@
+/* HomePage.css */
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #00050e, #2e5495);
+    color: white;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .hero-section {
+    margin-bottom: 40px;
+    max-width: 800px;
+    width: 100%;
+    position: relative; /* Ensures the title can be positioned on top */
+  }
+  
+  .SkySearch-title {
+    position: absolute;
+    top: -30px;
+    left: -279px;
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: white;
+   
+    letter-spacing: 2px;
+    z-index: 10; /* Keeps it on top of other elements */
+  }
+  
+  .homepage-image {
+    width: 1224px; /* Set the width to 1224px */
+    height: 460px; /* Set the height to 460px */
+    object-fit: cover; /* Ensures the image covers the area without distortion */
+    display: block; /* Removes extra space below the image */
+    margin: 0 auto; /* Centers the image horizontally */
+    border-radius: 15px; /* Rounds the corners of the image */
+  }
+  
+  .hero-title {
+    font-size: 2.5rem;  /* Increased the font size */
+    font-weight: bold;
+    margin-bottom: 10px;  /* Reduced bottom margin for tighter gap */
+    margin-top: 100px;  /* Kept this to control how far down the title appears */
+  }
+  
+  .hero-subtitle {
+    font-size: 2rem;  /* Increased the font size */
+    margin-bottom: -50px;
+    margin-top: 10px;  /* Reduced margin-top for closer placement to the title */
+  }
+
+  .popular-destinations {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .destinations-grid {
+    display: flex;
+    justify-content: space-around; /* Distribute space evenly between the items */
+    gap: 20px;
+    flex-wrap: wrap; /* Allows items to wrap if they don't fit in a row */
+  }
+  
+  .destination-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+    flex: 1 1 250px; /* This makes each card take up equal space but will wrap when needed */
+  }
+  
+  .destination-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .destination-card img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  .flight-functions {
+    margin-top: 20px;
+    text-align: center;
+  }
+  .image-container {
+    margin-top: 40px;  /* Adjust the space as needed */
+  }
+  .functions-grid {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+  
+  .flight-button {
+    background-color: #3498db;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  .flight-button:hover {
+    background-color: #2980b9;
+  }
+  .flight-functions {
+    margin-bottom: -20px;/* Adjust the space between the image and the flight management section */
+    text-align: center;
+  }
+  
+  
+  
+  .features-section {
+    margin-top: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: -340px;
+  }
+  
+  .features-section h2 {
+    margin-top: 40px;
+    max-width: 1200px;
+    width: 100%;
+    margin-top: 400px;  /* Ensure enough gap between the image and the features section */
+  }
+  
+  .features-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+  }
+  
+  .feature-card {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .feature-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .feature-card h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .feature-card p {
+    font-size: 1rem;
+    color: #ddd;
+  }
+  
+  .footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+  }
+  
+  .footer-links a {
+    color: #ccc;
+    text-decoration: none;
+    font-size: 0.9rem;
+  }
+  
+  .footer-links a:hover {
+    text-decoration: underline;
+  }
